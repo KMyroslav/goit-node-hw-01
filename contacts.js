@@ -20,7 +20,7 @@ async function getContactById(contactId) {
 
   if (!result) {
     console.error(`Couldnt find contact with id: ${contactId}`);
-    return;
+    return null;
   }
 
   return result;
@@ -30,9 +30,9 @@ async function removeContact(contactId) {
   const contacts = await listContacts();
   const idx = contacts.findIndex((el) => Number(el.id) === Number(contactId));
   if (idx === -1) {
+    console.error(`Couldnt find contact with id: ${contactId}`);
     return null;
   }
-
   const removedContact = contacts.splice(idx, 1)[0];
 
   updateId(contacts);
