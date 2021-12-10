@@ -48,10 +48,10 @@ use command `node index.js` with flag `--action` or shorthand `-a` plus action y
 
 You can use shorthands:
 
-- `--id` = `-i`
-- `--name` = `-n`
-- `--email` = `-e`
-- `--phone` = `-p`
+- `--id`: `-i`
+- `--name`: `-n`
+- `--email`: `-e`
+- `--phone`: `-p`
 
 ## Examples
 
