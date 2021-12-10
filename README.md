@@ -4,8 +4,8 @@
 
 - [Objective](#objective)
 - [Technologies](#technologies)
-- [API] (#api)
-- [CLI] (#cli)
+- [API](#api)
+- [CLI](#cli)
 - [Examples](#examples)
 
 ## Objective
